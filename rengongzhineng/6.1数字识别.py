@@ -23,7 +23,7 @@ def get_dataloader(train=True,batch_size=Batch_SIZE):
     ])
     dataset = MNIST(root='data', train=train, transform=transform_fn)
     # shuffer代表True代表打乱顺序
-    data_loader = DataLoader(dataset, batch_size=Batch_SIZE, shuffle=True)
+    data_loader = DataLoader(dataset, batch_size=batch_size, shuffle=True)
     return data_loader
 
 
