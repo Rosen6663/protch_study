@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 
 # 1.准备数据
 x = torch.rand(500, 1)
+print(x)
 y = 0.3 * x + 0.8
 
 
