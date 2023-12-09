@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import Dataset,DataLoader
 
-data_path = 'data/SMSSpamCollection'
+data_path = '../data/SMSSpamCollection'
 
 
 # 完成数据集类

@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d9c389a22a7f3aa9",
+        "id": "caeb7c5a5ef3986c",
         "type": "tabs",
         "children": [
           {
-            "id": "36c9dc46b0859f75",
+            "id": "b10940ef255ce58f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2.梯度下降和反向传播.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2.梯度下降和反向传播.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2.梯度下降和反向传播.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2.梯度下降和反向传播.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +138,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "36c9dc46b0859f75",
+  "active": "b10940ef255ce58f",
   "lastOpenFiles": [
+    "2.梯度下降和反向传播.md",
     "myimg/Pasted image 20231125111405.png",
     "myimg/Pasted image 20231125111353.png",
     "myimg/Pasted image 20231125110533.png",
@@ -156,11 +149,9 @@
     "myimg/Pasted image 20231125110253.png",
     "myimage/Pasted image 20231125110218.png",
     "myimage/Pasted image 20231125110221.png",
-    "2.梯度下降和反向传播.md",
     "myimage",
     "myimg/Pasted image 20231125105144.png",
     "myimg/Pasted image 20231125105425.png",
-    "myimg/Pasted image 20231125104746.png",
     "myimg/image.md",
     "myimg/Pasted.md"
   ]

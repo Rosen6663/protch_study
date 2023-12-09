@@ -52,9 +52,9 @@ class MnistModel(nn.Module):
 
 model = MnistModel()
 optimizer = Adam(model.parameters(), lr=0.001)
-if os.path.exists('model/model1.pkl'):
-    model.load_state_dict(torch.load('model/model1.pkl'))
-    optimizer.load_state_dict(torch.load('model/opti1.pkl'))
+if os.path.exists('../model/model1.pkl'):
+    model.load_state_dict(torch.load('../model/model1.pkl'))
+    optimizer.load_state_dict(torch.load('../model/opti1.pkl'))
 
 
 def train(epoch):
@@ -66,8 +66,8 @@ def train(epoch):
         loss.backward()  # 反向传播
         optimizer.step()  # 梯度更新
         if idx % 100 == 0:
-            torch.save(model.state_dict(), 'model/model1.pkl')
-            torch.save(optimizer.state_dict(), 'model/opti1.pkl')
+            torch.save(model.state_dict(), '../model/model1.pkl')
+            torch.save(optimizer.state_dict(), '../model/opti1.pkl')
 
 
 def atest():
